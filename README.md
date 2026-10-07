@@ -1,6 +1,6 @@
 # Yahan Chen Portfolio
 
-This repository powers [AndreaChen0301.github.io](https://AndreaChen0301.github.io).
+This repository powers [AndreaChen0301.github.io/yahan_webpage](https://AndreaChen0301.github.io/yahan_webpage/).
 
 ## Edit the website
 

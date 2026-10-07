@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 
 type Tab = "about" | "resume" | "projects";
 
+const assetBase = process.env.NODE_ENV === "production" ? "/yahan_webpage" : "";
+
 const tabs: { id: Tab; label: string }[] = [
   { id: "about", label: "About me" },
   { id: "resume", label: "Resume" },
@@ -225,7 +227,7 @@ function Projects() {
             </div>
             {project.images && (
               <div className={`project-gallery ${project.images.length === 1 ? "single" : ""}`}>
-                {project.images.map((image, index) => <img src={image} alt={`${project.title} result ${index + 1}`} key={image} />)}
+                {project.images.map((image, index) => <img src={`${assetBase}${image}`} alt={`${project.title} result ${index + 1}`} key={image} />)}
               </div>
             )}
             <div className="project-details">
