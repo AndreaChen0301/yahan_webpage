@@ -261,7 +261,7 @@ function Contact() {
         <a href="mailto:yahanc27@uw.edu">Email <Arrow /></a>
         <a href="https://www.linkedin.com/in/yahan-chen-391940250/" target="_blank" rel="noreferrer">LinkedIn <Arrow /></a>
         <a href="https://github.com/AndreaChen0301" target="_blank" rel="noreferrer">GitHub <Arrow /></a>
-        <a href="tel:+18200231408">+1 820 023 1408</a>
+        <a href="tel:18200231408">+86 18200231408</a>
       </div>
       <p className="copyright">© {new Date().getFullYear()} Yahan Chen</p>
     </footer>
