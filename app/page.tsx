@@ -42,9 +42,10 @@ function About({ onProjects }: { onProjects: () => void }) {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Data scientist · Biostatistician · Researcher</p>
-          <h1>I turn complex data into evidence people can act on.</h1>
+          <h1>Yahan Chen</h1>
           <p className="lede">
-            I’m Yahan (Andrea) Chen, a Biostatistics master’s student at the University of Washington.
+            I’m a Biostatistics master’s student at the University of Washington, and obtained Bachelor degree in
+            Statistics and Data Science at the University of Wisconsin-Madison.
             I build rigorous, scalable analyses across healthcare, statistical genetics, NLP, and
             learning science.
           </p>
