@@ -227,7 +227,15 @@ function Projects() {
               <div><p>{project.category} · {project.period}</p><h2>{project.title}</h2></div>
             </div>
             {project.images && (
-              <div className={`project-gallery ${project.images.length === 1 ? "single" : ""}`}>
+              <div
+                className={`project-gallery ${
+                  project.images.length === 1 ? "single" : ""
+                } ${
+                  project.title === "Exploring Online Mental Health Counseling"
+                  ? "counseling-gallery"
+                  : ""
+                }`}
+                >
                 {project.images.map((image, index) => <img src={`${assetBase}${image}`} alt={`${project.title} result ${index + 1}`} key={image} />)}
               </div>
             )}
