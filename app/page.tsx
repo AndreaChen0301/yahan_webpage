@@ -186,7 +186,7 @@ const projects = [
     category: "NLP · Healthcare · Research",
     summary: "Analyzed 3,000+ online counseling exchanges to examine power, conversational versus medical language, and empathy. The study combined spaCy preprocessing, language dictionaries, topic modeling, biomedical NER, and pronoun analysis.",
     stats: ["3,512 conversations", "44% used a medical term", "3 research questions"],
-    images: ["/project-visuals/counseling-language.jpg", "/project-visuals/counseling-medical-terms.jpg"],
+    images: ["/project-visuals/counseling-language.png", "/project-visuals/counseling-med terms.png"],
   },
   {
     number: "03",
