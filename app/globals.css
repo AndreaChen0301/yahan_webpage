@@ -16,6 +16,7 @@ nav button.active { background:var(--ink); color:var(--paper); }
 .say-hi { justify-self:end; text-decoration:none; font-size:14px; font-weight:700; }
 .say-hi span, .text-link, .project-details a, .more-work>a { color:var(--teal); }
 .page-shell { max-width:1440px; margin:auto; animation:reveal .45s ease both; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 @keyframes reveal { from { opacity:0; transform:translateY(8px); } }
 .hero { min-height:630px; padding:84px 7vw 70px; display:grid; grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr); gap:7vw; align-items:center; }
 .eyebrow, .section-kicker { margin:0 0 24px; text-transform:uppercase; letter-spacing:.16em; font-size:12px; font-weight:800; color:var(--teal); }
