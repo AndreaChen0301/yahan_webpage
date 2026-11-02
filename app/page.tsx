@@ -57,7 +57,12 @@ function About({ onProjects }: { onProjects: () => void }) {
         <div className="portrait-wrap" aria-label="Avatar placeholder">
           <div className="orbit orbit-one" />
           <div className="orbit orbit-two" />
-          <div className="avatar" role="img" aria-label="Memoji-style avatar placeholder">👩🏻‍💻</div>
+          <div className="avatar">
+            <img
+              src={`${assetBase}/profile_web.png`}
+              alt="Yahan Chen"
+            />
+          </div>
           <p>Seattle, Washington</p>
         </div>
       </section>
